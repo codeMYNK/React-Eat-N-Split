@@ -132,7 +132,7 @@ function Friend({ friend, onSelection, selectedFriend }) {
 function FormAddFriend({ onAddFriend }) {
   const [name, setName] = useState("");
   const [image, setImage] = useState("https://i.pravatar.cc/48");
-  const [balance, setBalance] = useState("");
+  // const [balance, setBalance] = useState("");
 
   function handleSubmit(e) {
     e.preventDefault();
